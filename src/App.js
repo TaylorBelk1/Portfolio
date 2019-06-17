@@ -15,7 +15,7 @@ import Blog from './components/blog/blog';
 function App() {
   return (
     <div className="App">
-      <Route exact path='/' component={Main} />
+      <Route exact path='/home' component={Main} />
       <Route exact path='/about' component={AboutMe} />
       <Route exact path='/contact' component={Contact} />
       <Route exact path='/projects' component={Project} />

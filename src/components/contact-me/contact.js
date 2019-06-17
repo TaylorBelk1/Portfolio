@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {ContactWrap, ContactViewWrap, AboutMeWrapper} from '../styles/about-me-styles';
+import {ContactWrap, ContactViewWrap, ContactWrapper} from '../styles/contact-styles';
 import Nav from './../nav/nav';
 import Footer from './../footer/footer';
 import TextField from '@material-ui/core/TextField';
@@ -23,23 +23,21 @@ const useStyles = makeStyles(theme => ({
     },
   }));
 
-  
-  
+
+
 
 const Contact = () => {
     const classes = useStyles();
     const [values, setValues] = React.useState({
         name: '',
-        age: '',
-        multiline: 'Controlled',
-        currency: 'EUR',
+        multiline: 'Controlled'
     });
 
     const handleChange = name => event => {
         setValues({ ...values, [name]: event.target.value });
     };
     return (
-      <AboutMeWrapper>
+      <ContactWrapper>
         <Nav />
             <ContactWrap>
                 <ContactViewWrap>
@@ -77,9 +75,9 @@ const Contact = () => {
                     </form>
                 </ContactViewWrap>
             </ContactWrap>
-        <Footer />
-      </AboutMeWrapper>
+          <Footer />
+      </ContactWrapper>
     );
   }
-  
+
   export default Contact

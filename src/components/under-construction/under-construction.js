@@ -5,10 +5,11 @@ import gear1 from '../../assets/gear500.png';
 import gear2 from '../../assets/gear100.png';
 import gear3 from '../../assets/gear50.png';
 import { ButtonConstruction } from './../styles/buttonStyles';
+import { GearWrap } from '../styles/under-construction-styles';
 
 const UnderConstruction = (props) => {
     return (
-        <>
+        <GearWrap>
                 <img src={gear2} alt='gear' className="gear"/>
                 <img src={gear1} alt='gear' className="bigGear"/>
                 <img src={gear2} alt='gear' className="gear"/>
@@ -17,7 +18,7 @@ const UnderConstruction = (props) => {
                 <ButtonConstruction>
                     <a href={props.url}>{props.text}</a>
                 </ButtonConstruction>
-        </>
+        </GearWrap>
     )
 }
 

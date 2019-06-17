@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import MobileStepper from '@material-ui/core/MobileStepper';
 import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
-import { Progress } from 'reactstrap';
-
+import { CardWrap } from '../../styles/about-me-styles';
 import react from '../../../assets/react.png';
 import js from '../../../assets/js.png';
 import node from '../../../assets/nodejs.png';
@@ -140,11 +139,11 @@ const TechStack = () => {
         <Grid container className={classes.root} spacing={2}>
             {data && data.map(el => {
                 return(
-                    <div key={el.id} className="card">
+                    <CardWrap key={el.id}>
                           <img src={el.img} alt={el.name} className="tech-img"/>
                           <h4>{el.name}</h4>
                           <h2>{el.value}</h2>
-                      </div>
+                      </CardWrap>
                 )
             })}
         </Grid>
