@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
 export const GearWrap = styled.div`
+
     .bigGear {
         animation: big-gear-spin infinite 20s linear;
+        @media(max-width: 1600px) {
+            width: 350px;
+        }
     }
 
     .gear {
@@ -26,16 +30,23 @@ export const GearWrap = styled.div`
         transform: rotate(360deg);
         }
     }
-
-    @media(max-width: 1300px) {
-        .bigGear {
-            width: 260px;
-        }
-    }
 `
 
 export const ConstructionWrapper = styled.div`
     background: linear-gradient(to left bottom, #0a004f, #191d77, #233ba3, #255ad0, #167bff);
     color: white;
-    height: 100vh;
+    height: 100%;
+
+    @media(max-width: 1600px) {
+        height: 100vh;
+    }
+
+    @media(max-width: 1300px) {
+        height: 100%;
+        padding-bottom: 80px;
+    }
+
+    @media(max-width: 500px) {
+        overflow-x: hidden;
+    }
 `

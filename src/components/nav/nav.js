@@ -6,7 +6,7 @@ const Nav = () => {
     return(
         <NavWrap>
             <SpanStyle>
-                <NavLink to='/home' className='link' activeStyle={{textDecoration: 'underline'}}>
+                <NavLink to='/' className='link' activeStyle={{textDecoration: 'underline'}}>
                     Home
                 </NavLink>
             </SpanStyle>
