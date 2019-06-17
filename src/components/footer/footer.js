@@ -9,16 +9,24 @@ const Footer = () => {
     return(
         <FooterWrap>
             <SpanWrap>
-                <img src={github} alt="github icon" height="26" width="26" />
+                <a href="https://github.com/TaylorBelk1">
+                    <img src={github} alt="github icon" height="26" width="26" />
+                </a>
             </SpanWrap>
             <SpanWrap>
-                <img src={linked} alt="linkedin icon" height="26" width="26" />
+                <a href="https://www.linkedin.com/in/taylor-belk-387a63172/">
+                    <img src={linked} alt="linkedin icon" height="26" width="26" />
+                </a>
             </SpanWrap>
             <SpanWrap>
-                <img src={medium} alt="medium icon" height="26" width="26" />
+                <a href="https://medium.com/@belktaylor12">
+                    <img src={medium} alt="medium icon" height="26" width="26" />
+                </a>
             </SpanWrap>
             <SpanWrap>
-                <img src={stack} alt="stackoverflow icon" height="26" width="26" />
+                <a href="https://stackoverflow.com/users/11311941/taylor-belk">
+                    <img src={stack} alt="stackoverflow icon" height="26" width="26" />
+                </a>
             </SpanWrap>
         </FooterWrap>
     )

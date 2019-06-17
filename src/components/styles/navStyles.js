@@ -13,3 +13,4 @@ export const SpanStyle = styled.span`
     align-items: center;
     margin-left: 1em;
 `
+
