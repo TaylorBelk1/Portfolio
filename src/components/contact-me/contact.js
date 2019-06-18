@@ -28,21 +28,50 @@ const useStyles = makeStyles(theme => ({
 
 const Contact = () => {
     const classes = useStyles();
+    const [emailInput, setEmailInput] = React.useState({
+      email: ''
+    });
     const [values, setValues] = React.useState({
         name: '',
-        multiline: 'Controlled'
+        multiline: ''
     });
 
     const handleChange = name => event => {
         setValues({ ...values, [name]: event.target.value });
     };
+
+    const handleEmail = name => event => {
+      setEmailInput({ ...emailInput, [name]: event.target.value })
+    }
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      console.log(emailInput.email)
+      console.log(values.name)
+      console.log(values.multiline)
+      // console.log(process.env.REACT_APP_EMAILSJS_TEMPLATEID)
+      const template = process.env.REACT_APP_EMAILSJS_TEMPLATEID;
+      const userId = process.env.REACT_APP_EMAILJS_USERID;
+      const params = {
+        from_name: values.name,
+        from_email: emailInput.email,
+        message: values.multiline
+      };
+
+      window.emailjs.send('default_service', template, params, userId)
+        .then(res => {
+          console.log(res);
+        })
+    }
+
+
     return (
       <ContactWrapper>
         <Nav />
             <ContactWrap>
                 <ContactViewWrap>
                     <h2>Want to work together?</h2>
-                    <form className={classes.container} noValidate autoComplete="off">
+                    <form className={classes.container} noValidate autoComplete="off" onSubmit={handleSubmit}>
                         <TextField
                             id="outlined-name"
                             label="What's your name?"
@@ -61,6 +90,8 @@ const Contact = () => {
                             autoComplete="email"
                             margin="normal"
                             variant="outlined"
+                            value={emailInput.email}
+                            onChange={handleEmail('email')}
                         />
                         <TextField
                             id="outlined-textarea"
@@ -70,8 +101,10 @@ const Contact = () => {
                             className={classes.textField}
                             margin="normal"
                             variant="outlined"
+                            value={values.multiline}
+                            onChange={handleChange('multiline')}
                         />
-                        <ButtonForm>Send</ButtonForm>
+                        <ButtonForm type="submit">Send</ButtonForm>
                     </form>
                 </ContactViewWrap>
             </ContactWrap>
