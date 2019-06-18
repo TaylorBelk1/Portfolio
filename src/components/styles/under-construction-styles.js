@@ -35,10 +35,11 @@ export const GearWrap = styled.div`
 export const ConstructionWrapper = styled.div`
     background: linear-gradient(to left bottom, #0a004f, #191d77, #233ba3, #255ad0, #167bff);
     color: white;
-    height: 100%;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 
     @media(max-width: 1600px) {
-        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
 
     @media(max-width: 1300px) {
