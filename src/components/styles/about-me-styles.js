@@ -4,11 +4,22 @@ export const AboutMeWrapper = styled.div`
     width: 100%;
     background: linear-gradient(to left bottom, #0a004f, #191d77, #233ba3, #255ad0, #167bff);
     color: white;
-    height: 100%;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 
-    @media(max-width: 1300px) {
-        height: auto;
-        padding-bottom: 70px;
+    @media(max-width: 1920px) {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+    }
+
+    @media(max-width: 1800px) {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    
+    @media(max-width: 500px) {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
 
     @media(max-width: 500px) {
@@ -22,7 +33,7 @@ export const AboutMeViewWrap = styled.div`
     width: 70%;
     height: auto;
     padding-bottom: 3em;
-    margin: 80px auto;
+    margin: 40px auto 20px;
     border-radius: 5px;
 
     @media(max-width: 1300px) {
@@ -30,10 +41,12 @@ export const AboutMeViewWrap = styled.div`
     }
 
     @media(max-width: 830px) {
-      width: 90%;
+        height: auto;
+        width: 90%;
     }
 
     @media(max-width: 520px) {
+        height: auto;
       width: 95%;
       margin-top: 20px;
     }
@@ -42,7 +55,7 @@ export const AboutMeViewWrap = styled.div`
 export const AboutMeBoxWrapper = styled.div`
   width: 95%;
   display: flex;
-  height: auto;
+  height: 100%;
 
   @media(max-width: 1300px) {
       flex-direction: column;
