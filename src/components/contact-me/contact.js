@@ -50,15 +50,15 @@ const Contact = () => {
       console.log(values.name)
       console.log(values.multiline)
       // console.log(process.env.REACT_APP_EMAILSJS_TEMPLATEID)
-      // const template = process.env.REACT_APP_EMAILSJS_TEMPLATEID;
-      // const userId = process.env.REACT_APP_EMAILJS_USERID;
+      const template = process.env.REACT_APP_EMAILSJS_TEMPLATEID;
+      const userId = process.env.REACT_APP_EMAILJS_USERID;
       const params = {
         from_name: values.name,
         from_email: emailInput.email,
         message: values.multiline
       };
 
-      window.emailjs.send('default_service', 'template_qTMtJKk1', params, 'user_D6ndaiODirAzkS7nrGbt8')
+      window.emailjs.send('default_service', template, params, userId)
         .then(res => {
           console.log(res);
         })
