@@ -14,7 +14,6 @@ export default class Contact extends Component {
         isLoading: false
       }
     }
-    // const classes = useStyles();
 
     handleCraftReq = req => {
         this.setState({...this.state, formSubmitted: true, isLoading: true});
@@ -22,8 +21,6 @@ export default class Contact extends Component {
     };
 
     handleSubmit = req => {
-      console.log(req)
-
       const template = process.env.REACT_APP_EMAILSJS_TEMPLATEID;
       const userId = process.env.REACT_APP_EMAILJS_USERID;
       const params = req;
@@ -32,11 +29,13 @@ export default class Contact extends Component {
         .then(res => {
           this.setState({...this.state, isLoading: false})
           console.log(res);
-        }).catch(e => console.log(e));
+        }).catch(e => {
+          this.setState({...this.state, isLoading: false})
+          console.log(e)
+        });
     }
 
     render() {
-      console.log(this.state.formSubmitted)
       return (
         <ContactWrapper>
           <Nav />
@@ -45,9 +44,7 @@ export default class Contact extends Component {
                     <CircularProgress className='load'/> :
                     this.state.formSubmitted ?
                     <Submitted /> :
-                    <ContactForm
-                      handleCraftReq={this.handleCraftReq}
-                      handleSubmit={this.handleSubmit}/>
+                    <ContactForm handleCraftReq={this.handleCraftReq} />
                   }
               </ContactWrap>
             <Footer />
