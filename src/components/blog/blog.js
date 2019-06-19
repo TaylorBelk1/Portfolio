@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './../nav/nav';
-import Footer from './../footer/footer';
+import FooterAbout from './../footer/footerAbout';
 import { AboutMeWrapper } from './../styles/about-me-styles';
 import UnderConstruction from './../under-construction/under-construction';
 import {ConstructionWrapper} from '../styles/under-construction-styles';
@@ -12,7 +12,7 @@ const Blog = () => {
         <Nav />
           <GetBlog />
             {/* <UnderConstruction url={'https://medium.com/@belktaylor12'} text={'Click here to check out my Medium'}/> */}
-        <Footer />
+          <FooterAbout />
       </ConstructionWrapper>
     );
   }

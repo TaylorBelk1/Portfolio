@@ -33,6 +33,6 @@ export const FooterWrapAbout = styled.div`
     }
 
     @media(max-width: 500px) {
-        right: -25%;
+        right: -30%;
     }
 `

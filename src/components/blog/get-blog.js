@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import BlogView from './blog-view';
+import {PostsWrap} from '../styles/blog-styles';
 import axios from 'axios';
 
 export default class GetBlog extends Component {
@@ -36,11 +37,11 @@ export default class GetBlog extends Component {
     render() {
         console.log(this.state.articles)
         return (
-        <div>
+        <PostsWrap>
             {this.state.isLoading ?
                 <CircularProgress /> :
                 <BlogView posts={this.state.articles}/>
             }
-        </div>)
+        </PostsWrap>)
     }
 }

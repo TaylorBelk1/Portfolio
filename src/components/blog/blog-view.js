@@ -8,20 +8,25 @@ import Button from '@material-ui/core/Button';
 
 const BlogView = (props) => {
     return(
-        <BlogWrap>
-            {props.posts.map(post => {
-                return(
-                <Card key={post.pubDate}>
-                    <SinglePost
-                        title={post.title}
-                        image={post.thumbnail}
-                        link={post.link}
-                        date={post.pubDate}
-                    />
-                </Card>
-            )})}
+        <>
+            <div>
+                <h2>Recent Blog Posts:</h2>
+            </div>
+            <BlogWrap>
+                {props.posts.map(post => {
+                    return(
+                    <Card key={post.pubDate}>
+                        <SinglePost
+                            title={post.title}
+                            image={post.thumbnail}
+                            link={post.link}
+                            date={post.pubDate}
+                        />
+                    </Card>
+                )})}
 
-        </BlogWrap>
+            </BlogWrap>
+        </>
     )
 }
 
