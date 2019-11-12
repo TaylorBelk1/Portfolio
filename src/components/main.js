@@ -10,13 +10,7 @@ import { Route } from 'react-router-dom';
 const Main = () => {
     return(
         <>
-        <MainWrap>
-            <Nav />
-            <MainCard />
-        </MainWrap>
-        <Avatar />
-        <FindMore />
-        <Footer />
+            Test
         </>
     )
 }

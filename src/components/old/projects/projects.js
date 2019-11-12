@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from './../nav/nav';
-import Footer from './../footer/footer';
-import { AboutMeWrapper } from './../styles/about-me-styles';
-import UnderConstruction from './../under-construction/under-construction';
+import Nav from '../../nav/nav';
+import Footer from '../../footer/footer';
+import { AboutMeWrapper } from '../styles/about-me-styles';
+import UnderConstruction from '../under-construction/under-construction';
 import { ConstructionWrapper } from '../styles/under-construction-styles';
 
 const Project = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from './../nav/nav';
 import FooterAbout from './../footer/footerAbout';
-import { AboutMeWrapper } from './../styles/about-me-styles';
-import UnderConstruction from './../under-construction/under-construction';
+import { AboutMeWrapper } from '../styles/about-me-styles';
+import UnderConstruction from '../under-construction/under-construction';
 import {ConstructionWrapper} from '../styles/under-construction-styles';
 import GetBlog from './get-blog';
 

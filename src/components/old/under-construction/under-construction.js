@@ -4,7 +4,7 @@ import Footer from '../footer/footer';
 import gear1 from '../../assets/gear500.png';
 import gear2 from '../../assets/gear100.png';
 import gear3 from '../../assets/gear50.png';
-import { ButtonConstruction } from './../styles/buttonStyles';
+import { ButtonConstruction } from '../styles/buttonStyles';
 import { GearWrap } from '../styles/under-construction-styles';
 
 const UnderConstruction = (props) => {

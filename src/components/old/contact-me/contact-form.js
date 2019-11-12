@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ContactViewWrap } from '../styles/contact-styles';
-import { ButtonForm } from './../styles/buttonStyles';
+import { ButtonForm } from '../styles/buttonStyles';
 import { TextField } from '@material-ui/core';
 
 // from contact handleChange={this.handleChange} handleSubmit={this.handleSubmit}

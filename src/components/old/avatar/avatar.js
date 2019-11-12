@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../../assets/emoji.png';
-import { AvatarDiv } from './../styles/avatarStyles';
+import { AvatarDiv } from '../styles/avatarStyles';
 
 const Avatar = () => {
     return (
