@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
-import Main from './components/main';
-import { Route } from 'react-router-dom';
+import Main from './components/Main';
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Main />
