@@ -1,23 +1,26 @@
 import React from 'react';
-import Nav from './nav/nav';
-import MainCard from './mainCard/mainCard';
-import { MainWrap } from './styles/mainStyles';
-import Avatar from '../components/avatar/avatar';
-import Footer from '../components/footer/footer';
-import FindMore from '../gtkmButton/button';
-import { Route } from 'react-router-dom';
+import { AppWrapper } from './Styles/Main-Styles';
+import Navigation from './Navigation';
+import Banner from './Banner';
+import Banner3D from './3D/Banner3D';
+import AboutMe from './AboutMe';
+import OverlappedSkills from './OverlappedSkills';
+import Projects from './Projects';
+import Blog from './Blog';
+import Footer from './Footer';
 
 const Main = () => {
     return(
-        <>
-        <MainWrap>
-            <Nav />
-            <MainCard />
-        </MainWrap>
-        <Avatar />
-        <FindMore />
-        <Footer />
-        </>
+        <AppWrapper>
+            <Navigation/>
+            <Banner />
+            <Banner3D />
+            <AboutMe />
+            <OverlappedSkills />
+            <Projects />
+            <Blog />
+            <Footer />
+        </AppWrapper>
     )
 }
 
