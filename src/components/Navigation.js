@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { NavWrapper, NavItems } from './Styles/Nav-Styles';
+import { NavWrapper, NavItems } from './styles/nav-styles';
 import logo from '../assets/logo.png';
-import ContactModal from './Contact-Modal';
+import ContactModal from './contactModal';
 
 const Navigation = () => {
     const [showModal, setShowModal] = useState(false);

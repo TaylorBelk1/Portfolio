@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { media } from './Reusable/variables';
+import { media } from './reusable/variables';
 
 export const Banner3DWrap = styled.div`
     width: 100%;

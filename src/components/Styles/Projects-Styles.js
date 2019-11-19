@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { sizing, media } from './Reusable/variables';
+import { sizing, media } from './reusable/variables';
 
 export const ProjectsWrap = styled.div`
     width: 100%;
