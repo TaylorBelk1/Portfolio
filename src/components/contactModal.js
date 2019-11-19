@@ -8,11 +8,11 @@ import {
     InputField,
     TextArea,
     Button
-} from './Styles/ContactModal-Styles';
+} from './styles/contactModal-styles';
 import close from '../assets/close.png';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import ErrorMessage from './Error-Message';
-import FormSuccess from './FormSuccess';
+import ErrorMessage from './errorMessage';
+import FormSuccess from './formSuccess';
 
 const ContactModal = (props) => {
     const [name, setName] = useState('');

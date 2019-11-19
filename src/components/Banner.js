@@ -1,5 +1,5 @@
 import React from 'react';
-import { BannerWrapper } from './Styles/Banner-Styles';
+import { BannerWrapper } from './styles/banner-styles';
 
 const Banner = () => {
     return (

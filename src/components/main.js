@@ -1,13 +1,13 @@
 import React from 'react';
-import { AppWrapper } from './Styles/Main-Styles';
-import Navigation from './Navigation';
-import Banner from './Banner';
-import Banner3D from './3D/Banner3D';
-import AboutMe from './AboutMe';
-import OverlappedSkills from './OverlappedSkills';
-import Projects from './Projects';
-import Blog from './Blog';
-import Footer from './Footer';
+import { AppWrapper } from './styles/main-styles';
+import Navigation from './navigation';
+import Banner from './banner';
+import Banner3D from './banner3D';
+import AboutMe from './aboutMe';
+import OverlappedSkills from './overlappedSkills';
+import Projects from './projects';
+import Blog from './blog';
+import Footer from './footer';
 
 const Main = () => {
     return(

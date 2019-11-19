@@ -4,8 +4,8 @@ import {
     BlogWrapper,
     BlogContent,
     BlogPostWrap,
-} from './Styles/Blog-Styles';
-import BlogPost from './BlogPost';
+} from './styles/blog-styles';
+import BlogPost from './blogPost';
 
 
 const Blog = () => {
