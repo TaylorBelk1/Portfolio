@@ -6,6 +6,8 @@ import Banner3D from './3D/Banner3D';
 import AboutMe from './AboutMe';
 import OverlappedSkills from './OverlappedSkills';
 import Projects from './Projects';
+import Blog from './Blog';
+import Footer from './Footer';
 
 const Main = () => {
     return(
@@ -16,6 +18,8 @@ const Main = () => {
             <AboutMe />
             <OverlappedSkills />
             <Projects />
+            <Blog />
+            <Footer />
         </AppWrapper>
     )
 }

@@ -1,10 +1,14 @@
 import styled from 'styled-components';
-import { colors } from './Reusable/variables';
+import { colors, media } from './Reusable/variables';
 
 export const NavWrapper = styled.div`
     width: 100%;
     height: 150px;
     color: ${colors.primary};
+
+    ${media.xs} {
+        height: 80px;
+    }
 `
 
 export const NavItems = styled.div`
@@ -25,9 +29,27 @@ export const NavItems = styled.div`
         border-radius: 50px;
         padding: 5px;
         align-self: center;
+
+        ${media.tablet} {
+            width: 100px;
+            font-size: 20px;
+            height: 25px;
+        }
     }
 
     img {
         width: 150px;
+
+        ${media.tablet} {
+            width: 90px;
+        }
+    }
+
+    ${media.desktop} {
+        width: 90%;
+    }
+
+    ${media.tablet} {
+        width: 98%;
     }
 `

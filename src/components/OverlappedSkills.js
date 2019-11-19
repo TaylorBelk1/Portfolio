@@ -39,6 +39,7 @@ const OverlappedSkills = () => {
 
                     <p>&nbsp;</p>
                     <Headlines>Other tools/libraries:</Headlines>
+                    <p>Redux</p>
                     <p>GitHub</p>
                     <p>TFS</p>
                     <p>URQL</p>

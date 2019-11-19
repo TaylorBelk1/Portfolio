@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import colors from './Reusable/variables';
+import { media } from './Reusable/variables';
 
 export const Banner3DWrap = styled.div`
     width: 100%;
@@ -11,6 +11,14 @@ export const Banner3DWrap = styled.div`
         margin: 90px;
         font-size: 28px;
         font-family: Roboto-Regular;
+
+        ${media.lgMobile} {
+            font-size: 24px;
+        }
+    }
+
+    ${media.mobile} {
+        display: none;
     }
 `
 
@@ -18,6 +26,20 @@ export const AnimationWrap = styled.div`
     width: 100%;
     height: 400px;
     position: absolute;
+
+    ${media.desktop} {
+        img {
+            width: 70px;
+            height: auto;
+        }
+    }
+
+    ${media.lgMobile} {
+        img {
+            width: 40px;
+            height: auto;
+        }
+    }
 `
 
 export const Divider = styled.div`
