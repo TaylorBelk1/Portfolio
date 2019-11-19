@@ -1,15 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
 .App {
   text-align: center;
 }
 
 body, html {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Ubuntu, sans-serif;
+  font-family: 'Montserrat-Medium', sans-serif;
 }
 
 a {
@@ -17,4 +17,299 @@ a {
   color: inherit;
 }
 
+.logos {
+  margin: 0 auto;
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  left: -100px;
+}
 
+#title {
+  opacity: 0;
+  animation: fadeIn 3s 1 forwards;
+  animation-delay: 1s;
+}
+
+.react {
+  animation: bounce 5.5s 1 forwards, dropBallOne 6s 1 forwards;
+  animation-delay: 2s;
+}
+
+.angular {
+  animation: bounce 5.5s 1 forwards, dropBallTwo 6s 1 forwards;
+  animation-delay: 2.1s;
+}
+
+.js {
+  animation: bounce 5.5s 1 forwards, dropBallThree 6s 1 forwards;
+  animation-delay: 2.2s;
+}
+
+.git {
+  animation: bounce 5.5s 1 forwards, dropBallFour 6s 1 forwards;
+  animation-delay: 2.3s;
+}
+
+.ts {
+  animation: bounce 5.5s 1 forwards, dropBallFive 6s 1 forwards;
+  animation-delay: 2.4s;
+}
+
+.tfs {
+  animation: bounce 5.5s 1 forwards, dropBallSix 6s 1 forwards;
+  animation-delay: 2.5s;
+}
+
+.pg {
+  animation: bounce 5.5s 1 forwards, dropBallSeven 6s 1 forwards;
+  animation-delay: 2.6s;
+}
+
+.node {
+  animation: bounce 5.5s 1 forwards, dropBallEight 6s 1 forwards;
+  animation-delay: 2.7s;
+}
+
+.java {
+  animation: bounce 5.5s 1 forwards, dropBallNine 6s 1 forwards;
+  animation-delay: 2.8s;
+}
+
+.sqlite {
+  animation: bounce 5.5s 1 forwards, dropBallTen 6s 1 forwards;
+  animation-delay: 2.9s;
+}
+
+.graphql {
+  animation: bounce 5.5s 1 forwards, dropBallEleven 6s 1 forwards;
+  animation-delay: 3s;
+}
+
+.rest {
+  animation: bounce 5.5s 1 forwards, dropBallTwelve 6s 1 forwards;
+  animation-delay: 3.1s;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  5% {
+    animation-timing-function: ease-in;
+    top: 0;
+  }
+
+  10% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  15% {
+    animation-timing-function: ease-in;
+    top: 50px;
+  }
+
+  20% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  25% {
+    animation-timing-function: ease-in;
+    top: 70px;
+  }
+
+  30% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  35% {
+    animation-timing-function: ease-in;
+    top: 120px;
+  }
+
+  40% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  45% {
+    animation-timing-function: ease-in;
+    top: 170px;
+  }
+
+  50% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    top: 200px;
+  }
+
+  60% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    top: 230px;
+  }
+
+  70% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  75% {
+    animation-timing-function: ease-in;
+    top: 250px;
+  }
+
+  80% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  85% {
+    animation-timing-function: ease-in;
+    top: 260px;
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    top: 300px;
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    top: 300px;
+  }
+}
+
+@keyframes dropBallOne {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 90%;
+  }
+}
+
+@keyframes dropBallTwo {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 83%;
+  }
+}
+
+@keyframes dropBallThree {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 76%;
+  }
+}
+
+@keyframes dropBallFour {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 68%;
+  }
+}
+
+@keyframes dropBallFive {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 60%;
+  }
+}
+
+@keyframes dropBallSix {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 52%;
+  }
+}
+
+@keyframes dropBallSeven {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 45%;
+  }
+}
+
+@keyframes dropBallEight {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 37%;
+  }
+}
+
+@keyframes dropBallNine {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 29%;
+  }
+}
+
+@keyframes dropBallTen {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 22%;
+  }
+}
+
+@keyframes dropBallEleven {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 14%;
+  }
+}
+
+@keyframes dropBallTwelve {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 6%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

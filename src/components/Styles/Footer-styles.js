@@ -1,0 +1,44 @@
+import styled from 'styled-components';
+import { colors, media } from './Reusable/variables';
+
+export const FooterWrap = styled.div`
+    width: 100%;
+    min-width: 100vw;
+    margin-top: 200px;
+    background-color: ${colors.primary};
+    min-height: 300px;
+    color: #fff;
+
+    p {
+        margin-top: 50px;
+        padding-bottom: 20px;
+        font-family: Roboto-Thin;
+    }
+
+    ${media.mobile} {
+        margin-top: 100px;
+    }
+`
+
+export const IconsWrap = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: 0 auto;
+
+    img {
+        width: 30px;
+    }
+
+    ${media.tablet} {
+        width: 30%;
+    }
+
+    ${media.mobile} {
+        width: 40%;
+    }
+
+    ${media.xs} {
+        width: 60%;
+    }
+`
