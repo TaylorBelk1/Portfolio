@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, sizing, media } from './Reusable/variables';
+import { colors, sizing, media } from './reusable/variables';
 
 export const SkillsWrap = styled.div`
     width: 65%;

@@ -1,18 +1,18 @@
 import React from "react";
-import { Banner3DWrap, Divider, Dot, AnimationWrap } from '../Styles/Banner3D-styles';
+import { Banner3DWrap, Divider, Dot, AnimationWrap } from './styles/banner3D-styles';
 
-import react from '../../assets/react.png';
-import angular from '../../assets/angular.png';
-import js from '../../assets/js.svg';
-import git from '../../assets/git.png';
-import ts from '../../assets/ts.png';
-import tfs from '../../assets/tfs.png';
-import pg from '../../assets/postgres.png';
-import node from '../../assets/nodejs.svg';
-import java from '../../assets/java.png';
-import sqlite from '../../assets/sqlite.png';
-import graphql from '../../assets/graphql.png';
-import rest from '../../assets/restapi.png';
+import react from '../assets/react.png';
+import angular from '../assets/angular.png';
+import js from '../assets/js.svg';
+import git from '../assets/git.png';
+import ts from '../assets/ts.png';
+import tfs from '../assets/tfs.png';
+import pg from '../assets/postgres.png';
+import node from '../assets/nodejs.svg';
+import java from '../assets/java.png';
+import sqlite from '../assets/sqlite.png';
+import graphql from '../assets/graphql.png';
+import rest from '../assets/restapi.png';
 
 const Banner3D = () => {
   return (

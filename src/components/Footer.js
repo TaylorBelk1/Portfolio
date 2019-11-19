@@ -2,8 +2,8 @@ import React from 'react';
 import {
     FooterWrap,
     IconsWrap
-} from './Styles/Footer-styles';
-import OverlappedContact from './Overlapped-Contact';
+} from './styles/footer-styles';
+import OverlappedContact from './overlappedContact';
 import git from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 import medium from '../assets/medium.png';
