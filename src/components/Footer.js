@@ -14,7 +14,6 @@ const Footer = () => {
     return (
         <FooterWrap>
             <OverlappedContact />
-            <h4></h4>
             <IconsWrap>
                 <img src={git} alt='github icon' />
                 <img src={linkedin} alt='linkedin icon' />
