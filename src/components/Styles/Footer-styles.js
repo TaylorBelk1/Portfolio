@@ -3,7 +3,6 @@ import { colors, media } from './Reusable/variables';
 
 export const FooterWrap = styled.div`
     width: 100%;
-    min-width: 100vw;
     margin-top: 200px;
     background-color: ${colors.primary};
     min-height: 300px;
