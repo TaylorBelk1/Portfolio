@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 const ErrorMessage = () => {
-    return <div>Error</div>
+    return <div>Error Sending Email</div>
 }
 
 export default ErrorMessage

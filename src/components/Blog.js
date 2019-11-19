@@ -26,7 +26,6 @@ const Blog = () => {
         }
     }
 
-console.log(posts)
     return (
         <BlogWrapper>
             <BlogContent>

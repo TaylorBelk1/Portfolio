@@ -4,7 +4,6 @@ import { colors, sizing, media } from './Reusable/variables';
 export const AboutMeWrapper = styled.div`
     margin-top: 160px;
     width: 100%;
-    min-width: 100vw;
     min-height: 500px;
     background-color: ${colors.primary};
     padding: 30px 0;
