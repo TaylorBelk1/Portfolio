@@ -1,4 +1,4 @@
-import styled from './node_modules/styled-components';
+import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
     width: 100%;

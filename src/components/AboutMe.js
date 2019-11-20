@@ -3,7 +3,7 @@ import {
     AboutMeWrapper,
     ContentWrap,
     ByLine
-} from './styles/aboutMe-styles';
+} from './styles/aboutMeStyles';
 
 
 const AboutMe = () => {

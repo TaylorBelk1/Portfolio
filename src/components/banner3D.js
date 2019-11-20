@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner3DWrap, Divider, Dot, AnimationWrap } from './styles/banner3D-styles';
+import { Banner3DWrap, Divider, Dot, AnimationWrap } from './styles/banner3DStyles';
 
 import react from '../assets/react.png';
 import angular from '../assets/angular.png';

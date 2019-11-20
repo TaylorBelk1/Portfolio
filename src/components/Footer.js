@@ -2,7 +2,7 @@ import React from 'react';
 import {
     FooterWrap,
     IconsWrap
-} from './styles/footer-styles';
+} from './styles/footerStyles';
 import OverlappedContact from './overlappedContact';
 import git from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
