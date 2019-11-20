@@ -22,8 +22,6 @@ const ContactModal = (props) => {
     const [isLoading, setIsLoading] = useState(false);
     const [wasError, setWasError] = useState(false);
 
-    console.log(props)
-
     const handleSubmit = e => {
         e.preventDefault();
         const req = {

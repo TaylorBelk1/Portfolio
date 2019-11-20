@@ -7,7 +7,6 @@ const Navigation = () => {
     const [showModal, setShowModal] = useState(false);
 
     const handleClick = () => {
-        console.log('Contact Us Clicked');
         setShowModal(true);
     }
 

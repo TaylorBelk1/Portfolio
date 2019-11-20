@@ -15,10 +15,18 @@ const Footer = () => {
         <FooterWrap>
             <OverlappedContact />
             <IconsWrap>
-                <img src={git} alt='github icon' />
-                <img src={linkedin} alt='linkedin icon' />
-                <img src={medium} alt='medium icon' />
-                <img src={stack} alt='medium icon' />
+                <a href='https://github.com/TaylorBelk1' target='_blank' rel="noopener noreferrer">
+                    <img src={git} alt='github icon' />
+                </a>
+                <a href='https://www.linkedin.com/in/taylor-belk-387a63172/' target='_blank' rel="noopener noreferrer">
+                    <img src={linkedin} alt='linkedin icon' />
+                </a>
+                <a href='https://medium.com/@belktaylor12' target='_blank' rel="noopener noreferrer">
+                    <img src={medium} alt='medium icon' />
+                </a>
+                <a href='https://stackoverflow.com/users/11311941/taylor-belk' target='_blank' rel="noopener noreferrer">
+                    <img src={stack} alt='stackoverflow icon' />
+                </a>
             </IconsWrap>
             <p>Taylor Belk | 2019 </p>
         </FooterWrap>
