@@ -9,6 +9,10 @@ export const NavWrapper = styled.div`
     ${media.xs} {
         height: 80px;
     }
+
+    ${media.atomic} {
+        display: none;
+    }
 `
 
 export const NavItems = styled.div`

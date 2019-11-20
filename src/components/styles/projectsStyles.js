@@ -9,6 +9,10 @@ export const ProjectsWrap = styled.div`
     ${media.lgMobile} {
         margin-top: -120px;
     }
+
+    ${media.atomic} {
+        margin-top: 20px;
+    }
 `
 
 export const ProjectsContent = styled.div`

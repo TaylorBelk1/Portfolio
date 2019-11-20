@@ -27,6 +27,11 @@ export const IconsWrap = styled.div`
 
     img {
         width: 30px;
+
+        ${media.atomic} {
+            width: 25px;
+            height: auto;
+        }
     }
 
     ${media.tablet} {
@@ -39,5 +44,8 @@ export const IconsWrap = styled.div`
 
     ${media.xs} {
         width: 60%;
+    }
+    ${media.atomic} {
+        width: 80%;
     }
 `

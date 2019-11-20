@@ -16,6 +16,10 @@ export const AboutMeWrapper = styled.div`
         padding-top: 5px;
         font-size: 16px;
     }
+
+    ${media.atomic} {
+        margin-top: 20px;
+    }
 `
 
 export const ContentWrap = styled.div`
@@ -35,6 +39,10 @@ export const ContentWrap = styled.div`
     ${media.mobile} {
         padding-top: 0;
         width: 90%;
+    }
+
+    ${media.atomic} {
+        padding-top: 30px;
     }
 `
 

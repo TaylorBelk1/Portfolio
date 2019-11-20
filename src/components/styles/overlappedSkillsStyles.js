@@ -33,6 +33,12 @@ export const SkillsWrap = styled.div`
         top: -120px;
         width: 99%;
     }
+
+    ${media.atomic} {
+        position: static;
+        border-radius: none;
+        box-shadow: none;
+    }
 `
 
 export const SkillsContent = styled.div`
