@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillsWrap, SkillsContent, Skill, Headlines } from './styles/overlappedSkillsStyles';
+import { SkillsWrap, SkillsContent, Skill, Headlines } from './Styless/overlappedSkillsStyles';
 
 import website from '../assets/website.png';
 import coding from '../assets/coding.png';

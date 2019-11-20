@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, media } from './reusable/variables';
+import { colors, media } from './Reusable/variables';
 
 export const FooterWrap = styled.div`
     width: 100%;

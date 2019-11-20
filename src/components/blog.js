@@ -4,7 +4,7 @@ import {
     BlogWrapper,
     BlogContent,
     BlogPostWrap,
-} from './styles/blogStyles';
+} from './Styless/blogStyles';
 import BlogPost from './blogPost';
 
 

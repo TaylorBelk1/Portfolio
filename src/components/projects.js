@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     ProjectsWrap, ProjectsContent
-} from './styles/projectsStyles';
+} from './Styless/projectsStyles';
 
 const Projects = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Success } from './styles/contactModalStyles';
+import { Success } from './Styless/contactModalStyles';
 
 const FormSuccess = () => {
     return (

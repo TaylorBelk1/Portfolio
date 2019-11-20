@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     BlogCard
-} from './styles/blogStyles';
+} from './Styless/blogStyles';
 
 const BlogPost = (props) => {
     const {item} = props;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, media } from './reusable/variables';
+import { colors, media } from './Reusable/variables';
 
 export const ContactWrap = styled.div`
     width: 60%;

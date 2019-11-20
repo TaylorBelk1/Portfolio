@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { sizing, media } from './reusable/variables';
+import { sizing, media } from './Reusable/variables';
 
 export const BlogWrapper = styled.div`
     width: 100%;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, sizing, media } from './reusable/variables';
+import { colors, sizing, media } from './Reusable/variables';
 
 export const AboutMeWrapper = styled.div`
     margin-top: 160px;
