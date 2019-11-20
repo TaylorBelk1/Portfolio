@@ -16,5 +16,5 @@ export const media = {
     lgMobile: '@media(max-width: 750px)',
     mobile: '@media(max-width: 600px)',
     xs: '@media(max-width: 480px)',
-    atomic: '@media(max-width: 340px)'
+    atomic: '@media(max-width: 420px)'
 }
