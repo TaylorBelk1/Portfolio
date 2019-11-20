@@ -27,11 +27,11 @@ export const IconsWrap = styled.div`
 
     img {
         width: 30px;
-        height: auto;
+        height: 30px;
 
         ${media.atomic} {
             width: 25px;
-            height: auto;
+            height: 25px;
         }
     }
 
