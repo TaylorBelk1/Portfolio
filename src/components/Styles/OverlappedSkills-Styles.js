@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from './node_modules/styled-components';
 import { colors, sizing, media } from './reusable/variables';
 
 export const SkillsWrap = styled.div`
