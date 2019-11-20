@@ -2,7 +2,7 @@ import React from 'react';
 import {
     ContactWrap,
     ContactContent
-} from './Styless/overlappedContactStyles';
+} from './styles/overlappedContactStyles';
 
 const OverlappedContact = () => {
     return (

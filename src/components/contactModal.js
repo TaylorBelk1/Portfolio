@@ -8,7 +8,7 @@ import {
     InputField,
     TextArea,
     Button
-} from './Styless/contactModalStyles';
+} from './styles/contactModalStyles';
 import close from '../assets/close.png';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import ErrorMessage from './errorMessage';

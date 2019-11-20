@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppWrapper } from './Styless/mainStyles';
+import { AppWrapper } from './styles/mainStyles';
 import Navigation from './navigation';
 import Banner from './banner';
 import Banner3D from './banner3D';

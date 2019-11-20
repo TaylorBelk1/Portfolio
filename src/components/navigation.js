@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { NavWrapper, NavItems } from './Styless/navStyles';
+import { NavWrapper, NavItems } from './styles/navStyles';
 import logo from '../assets/logo.png';
 import ContactModal from './contactModal';
 
