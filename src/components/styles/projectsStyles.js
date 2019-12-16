@@ -24,3 +24,12 @@ export const ProjectsContent = styled.div`
         font-size: 26px;
     }
 `
+
+export const ProjectWrap = styled.div`
+
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+`
