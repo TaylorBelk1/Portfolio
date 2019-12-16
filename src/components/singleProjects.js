@@ -7,7 +7,9 @@ const SingleProjects = (props) => {
     return (
         <ProjectWrap>
             <h4>{title}</h4>
-            <a href='https://forecast-it.netlify.com/' target='_blank'><img src={img} alt='project snip' /></a>
+            <a href='https://forecast-it.netlify.com/' target='_blank' rel="noopener noreferrer">
+                <img src={img} alt='project snip' />
+            </a>
         </ProjectWrap>
     )
 }
