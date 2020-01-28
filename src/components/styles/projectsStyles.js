@@ -27,6 +27,11 @@ export const ProjectsContent = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    ${media.lgMobile} {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const ProjectWrap = styled.div`
@@ -49,6 +54,10 @@ export const ProjectWrap = styled.div`
 
     .no_show {
         display: none;
+    }
+
+    ${media.lgMobile} {
+        margin-bottom: 20px;
     }
 `
 
