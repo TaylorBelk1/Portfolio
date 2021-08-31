@@ -50,7 +50,7 @@ const OverlappedSkills = () => {
                 <Skill>
                     <img src={coding} alt='backend coding' />
                     <h5> Back End Developer </h5>
-                    <p> I enjoy creating robust and efficient backends with organized and well thought out database schema's. </p>
+                    <p> I enjoy creating robust and efficient backends with organized and well thought out database schema's, and clean code bases! </p>
                     <p>&nbsp;</p>
                     <Headlines>Server technology:</Headlines>
                     <p>NodeJS</p>
